@@ -1,4 +1,4 @@
-import mainContent from "./mainContent";
+import mainContent from "../src/pages/mainContent";
 
 // document.body.appendChild(mainContent());
 
