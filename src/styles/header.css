@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Alkatra";
+  src: url("../assets/fonts/Alkatra-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  justify-content: end;
+  column-gap: 2em;
+  padding: 0.9em 1.5em;
+  background-color: black;
+  color: white;
+  font-family: "Alkatra";
+  font-size: 1.1rem;
+}
+
+.header h2 {
+  margin: 0;
+}

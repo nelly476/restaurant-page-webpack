@@ -1,5 +1,7 @@
 import mainContent from "../src/pages/mainContent";
 
-// document.body.appendChild(mainContent());
+import header from "../src/pages/header";
+
+document.body.appendChild(header());
 
 document.body.appendChild(mainContent());

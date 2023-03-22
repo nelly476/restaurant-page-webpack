@@ -15,7 +15,12 @@ export default function mainContent() {
   const textContentName = document.createElement("h1");
   textContentName.innerHTML = "Italiano";
 
+  const textContentDescription = document.createElement("p");
+  textContentDescription.innerHTML =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ";
+
   mainTextContent.appendChild(textContentName);
+  mainTextContent.appendChild(textContentDescription);
 
   content.appendChild(mainImg);
   content.appendChild(mainTextContent);
