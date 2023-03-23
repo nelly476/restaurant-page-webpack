@@ -15,7 +15,11 @@ document.getElementById("menuLink").onclick = () => {
   document.body.appendChild(menu());
 };
 
-document.getElementById("contactLink").onclick = () => {
+document.getElementById("logoLink").onclick = () => {
   document.body.children[1].remove();
   document.body.appendChild(mainContent());
+};
+
+document.getElementById("contactLink").onclick = () => {
+  window.open("https://github.com/nelly476", "_blank").focus();
 };
