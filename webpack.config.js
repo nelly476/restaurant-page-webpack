@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -16,7 +17,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "Italiano",
     }),
+    new FaviconsWebpackPlugin("./src/assets/favicon.png"),
   ],
+
   output: {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
