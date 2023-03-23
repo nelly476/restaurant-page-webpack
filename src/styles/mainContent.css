@@ -21,6 +21,17 @@
   font-family: "Alkatra";
   font-size: 3.9rem;
   color: #ff540b;
+  animation: cssAnimation_0 3000ms 1 ease-out;
+}
+
+@keyframes cssAnimation_0 {
+  from {
+    transform: translate(99px, 0px);
+  }
+
+  to {
+    transform: translate(0px, 0px);
+  }
 }
 
 .main-text-content p {
@@ -31,4 +42,15 @@
   font-size: 1.3rem;
   color: white;
   font-style: italic;
+  animation: cssAnimation_1 3000ms 1 ease-out;
+}
+
+@keyframes cssAnimation_1 {
+  from {
+    transform: translate(-139px, 0px);
+  }
+
+  to {
+    transform: translate(0px, 0px);
+  }
 }

@@ -14,6 +14,7 @@ export default function mainContent() {
 
   const textContentName = document.createElement("h1");
   textContentName.innerHTML = "Italiano";
+  textContentName.className = "element";
 
   const textContentDescription = document.createElement("p");
   textContentDescription.innerHTML =
