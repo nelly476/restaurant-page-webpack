@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Alkatra";
+  src: url("../assets/fonts/Alkatra-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fasthand-Regular";
+  src: url("../assets/fonts/Fasthand-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  width: 75%;
+  align-self: center;
+  height: 90%;
+}
+
+h2 {
+  cursor: pointer;
+}

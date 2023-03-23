@@ -1,0 +1,15 @@
+.menu-container {
+  background-color: black;
+  font-family: "Fasthand-Regular";
+  color: white;
+  width: 60%;
+}
+
+.menu-container p {
+  font-size: 1.5rem;
+}
+
+.dish {
+  display: flex;
+  justify-content: space-between;
+}

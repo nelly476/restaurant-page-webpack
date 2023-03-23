@@ -3,7 +3,7 @@ import mainPageImg from "../assets/main-page-img.jpg";
 
 export default function mainContent() {
   const content = document.createElement("div");
-  content.className = "content";
+  content.className = "content landing-page";
 
   const mainImg = new Image();
   mainImg.src = mainPageImg;
